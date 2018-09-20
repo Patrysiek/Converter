@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Konwerter</string>
+    <string name="welcome_screen_banner">Ekran Powitalny</string>
+    <string name="menu_choose_category">Wybierz Kategorie</string>
+
+    <string name="menu_mass">Masa</string>
+    <string name="mass_title">MASA</string>
+
+    <string name="menu_currency">Waluta</string>
+    <string name="currency_title">WALUTA</string>
+
+    <string name="menu_length">Długość</string>
+    <string name="length_title">DŁUGOŚĆ</string>
+
+    <string name="menu_temp">Temperatura</string>
+    <string name="temp_title">TEMPERATURA</string>
+
+
+    <string name="entry_hint">Wartość</string>
+
+
+    <string-array name="mass_units_array">
+        <item>Kg</item>
+        <item>oz</item>
+        <item>lb</item>
+        <item>stone</item>
+    </string-array>
+
+
+    <string-array name="length_units_array">
+        <item>cm</item>
+        <item>m</item>
+        <item>km</item>
+        <item>in</item><!--cal-->
+        <item>ft</item><!--stopa-->
+        <item>yd</item><!--jard-->
+        <item>mi</item><!--mila-->
+    </string-array>
+
+
+
+    <string-array name="temp_units_array">
+        <item><sup>o</sup>C</item>
+        <item><sup>o</sup>F</item><!--Farenhejt-->
+        <item><sup>o</sup>N</item><!--Newton-->
+        <item>K</item><!--Kelvin-->
+    </string-array>
+
+    <string-array name="currency_units_array">
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

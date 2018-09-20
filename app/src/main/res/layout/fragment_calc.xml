@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/thisAppBasicBG">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:paddingBottom="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@+id/entered_value">
+
+            <Spinner
+                android:id="@+id/from_unit_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:popupBackground="@color/thisAppBasicBG" />
+
+            <Spinner
+                android:id="@+id/to_unit_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:popupBackground="@color/thisAppBasicBG" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/entered_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/entry_hint"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/mass_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text=""
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/thisAppFragmentTitle"
+        />
+
+    <TextView
+        android:id="@+id/text_resulted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/thisAPpBasicText"
+
+
+        android:textSize="40dp" />
+
+
+</FrameLayout>

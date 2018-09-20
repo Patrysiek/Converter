@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="USDGBP">USDGBP</string>
+    <string name="USDEUR">USDEUR</string>
+    <string name="USDPLN">USDPLN</string>
+
+
+    <string name="GBPUSD">GBPUSD</string>
+    <string name="GBPPLN">GBPPLN</string>
+    <string name="GBPEUR">GBPEUR</string>
+
+    <string name="PLNUSD">PLNUSD</string>
+    <string name="PLNGBP">PLNGBP</string>
+    <string name="PLNEUR">PLNEUR</string>
+
+
+    <string name="EURPLN">EURPLN</string>
+    <string name="EURUSD">EURUSD</string>
+    <string name="EURGBP">EURGBP</string>
+
+
+</resources>
